@@ -42,6 +42,5 @@ dialog_m.add_command(label="Save As",command=save_as)
 spin.grid(row=0, column=0)
 ent.grid(row=0, column=1)
 txt.grid(row=1,column=0, columnspan=2)
-
 tab_control.pack(expand=1,fill="both")
 root.mainloop()
