@@ -49,7 +49,6 @@ def text_to_lbl(event):
         dd="Нет корней"
         lblx["text"] = dd
         lblx.grid()
-
 def graf(event):
         global y,photo, lblimage
         y0=0,0
